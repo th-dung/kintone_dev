@@ -101,7 +101,8 @@
         return;
       }
       const dataPayload = createDataPayload(record);
-      await sendDataToApp(targetAppId, dataPayload);
+      console.log("==>", dataPayload);
+      // await sendDataToApp(targetAppId, dataPayload);
       // await updateSourceRecord(appId, record);
     } catch (error) {
       alert(error.message);
