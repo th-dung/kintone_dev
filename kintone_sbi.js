@@ -4,12 +4,15 @@
   const fromAppId = kintone.app.getId();
   const targetAppId = 203;
   const fieldsFromApp = [
-    "create_date",
-    "deposit_amount",
-    "withdrawal_amount",
-    "balance_amount",
-    "description_amount",
-    "private_note",
+    "create_at",
+    "transaction_type",
+    "transaction_description",
+    "cash",
+    "memo",
+    "balance",
+    "transaction_id",
+    "money_out",
+    "money_in",
   ];
   console.log("Hello Kintone");
 
